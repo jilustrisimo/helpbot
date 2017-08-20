@@ -5,7 +5,7 @@ module SlackHelpBot
       match(/^(?<bot>[[:alnum:][:punct:]@<>]*)$/u)
     
       def self.call(client, data, _match)
-        client.say(channel: data.channel, text: 'ABOUT')
+        client.say(channel: data.channel, text: ABOUT)
       end
     end
   end

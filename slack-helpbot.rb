@@ -1,3 +1,4 @@
 require 'slack-ruby-bot'
-require 'require_all'
-require_all 'slack-helpbot'
+require 'slack-helpbot/bot'
+require 'slack-helpbot/about'
+Dir["/slack-helpbot/commands/*.rb"].each {|file| require file }
