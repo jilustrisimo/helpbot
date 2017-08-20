@@ -1,2 +1,3 @@
 require 'slack-ruby-bot'
-require 'slack-helpbot/bot'
+require 'require_all'
+require_all 'slack-helpbot'

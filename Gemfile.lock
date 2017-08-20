@@ -72,6 +72,7 @@ GEM
     rack-test (0.7.0)
       rack (>= 1.0, < 3)
     rake (12.0.0)
+    require_all (1.4.0)
     rspec (3.6.0)
       rspec-core (~> 3.6.0)
       rspec-expectations (~> 3.6.0)
@@ -127,6 +128,7 @@ DEPENDENCIES
   puma
   rack-test
   rake
+  require_all
   rspec
   sinatra
   slack-ruby-bot!
