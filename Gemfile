@@ -5,7 +5,6 @@ gem 'puma'
 gem 'sinatra'
 gem 'dotenv'
 gem 'celluloid-io'
-gem 'require_all'
 
 group :development, :test do
   gem 'rake'
