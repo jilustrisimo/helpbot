@@ -5,7 +5,7 @@ module SlackHelpBot
       scan(/the.IDE/i)
 
       def self.call(client, data, _match)
-        client.say(channel: data.channel, text:["Hey there <@#{data.user}>!", Learn_IDE])
+        client.say(channel: data.channel, text: ["Hey there <@#{data.user}>!", Learn_IDE])
       end
     end
   end
