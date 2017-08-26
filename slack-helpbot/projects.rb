@@ -8,7 +8,7 @@ module SlackHelpBot
 
     You can join the following channel and check if anyone else has been looking for a team for the same project as you.  Likewise, you can post that you are looking team up in the channel as well, just make sure you specify the project!
 
-    <#C6QKENHB3>
+    <#C6U9YT99T>
 
     Once you have your team you can learn more about how to get going here:
 
