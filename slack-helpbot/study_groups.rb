@@ -2,7 +2,10 @@ module SlackHelpBot
   Study_groups = <<-Study_groups.freeze
     *Study Groups*
 
-   >You can find everything you need to know about study-groups here: http://help.learn.co/study-groups
+   You can find everything you need to know about study-groups here: http://help.learn.co/study-groups
+
+   Also, here is a link to all the study groups available to you:
+   https://learn.co/study-groups
 
     There are multiple types of staff lead study groups.
     They are categorized as:
