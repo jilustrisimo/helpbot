@@ -1,6 +1,7 @@
 module SlackHelpBot
   PROJECTS = <<-PROJECTS.freeze
     *Teaming up for Group Projects*
+    
     _NOTE: you *must* work on portfolio projects on your own_
 
     Collaborative programming in the program is an amazing way to get used to working with a team!
