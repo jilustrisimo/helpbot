@@ -1,10 +1,11 @@
 module SlackHelpBot
   module Commands
     class LearnIDE < SlackRubyBot::Commands::Base
-      scan(/.IDE./i)
+      command 'IDE'
+      scan(/the.IDE/i)
 
       def self.call(client, data, _match)
-        client.say(channel: data.channel, text: Learn_IDE)
+        client.say(channel: data.channel, text:["Hey there <@#{data.user}>!", Learn_IDE])
       end
     end
   end
